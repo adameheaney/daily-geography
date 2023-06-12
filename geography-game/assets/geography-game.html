@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            'Geography Game'
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="app">
+        <div id="circle-container" style="display: flex; justify-content: center; align-items: center;">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        
+        <h1 style="padding-bottom: 2%; border-bottom: 2px; border-color: rgb(228, 228, 228); border-bottom-style: solid;">
+            Do you know your geography?
+        </h1>
+        <div class="main-quiz-block">
+            <h2 id="question-text" style="padding-top: 2%; height: 200px; display: block; text-align: center;">
+                Question: 
+            </h2>
+            <div id="answer-buttons">
+                <button class="btn active">
+                    Answer 1
+                </button>
+                <button class="btn active">
+                    Answer 2
+                </button>
+                <button class="btn active">
+                    Answer 3
+                </button>
+                <button class="btn active">
+                    Answer 4
+                </button>
+            </div>
+            <button class="inactive" id="next-btn">Next</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>

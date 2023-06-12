@@ -1,0 +1,197 @@
+Afghanistan, 38,928,346, Kabul, Afghanistan.png
+Albania, 2,877,797, Tirana, Albania.png
+Algeria, 43,851,044, Algiers, Algeria.png
+Samoa, 198,414, Apia, Samoa.png
+Andorra, 77,265, Andorra la Vella, Andorra.png
+Angola, 32,866,272, Luanda, Angola.png
+Antigua And Barbuda, 97,929, Saint John's, Antigua And Barbuda.png
+Argentina, 45,195,774, Buenos Aires, Argentina.png
+Armenia, 2,963,243, Yerevan, Armenia.png
+Australia, 25,499,884, Canberra, Australia.png
+Austria, 9,006,398, Vienna, Austria.png
+Azerbaijan, 10,139,177, Baku, Azerbaijan.png
+Bahamas, 393,244, Nassau, Bahamas.png
+Bahrain, 1,701,575, Manama, Bahrain.png
+Bangladesh, 164,689,383, Dhaka, Bangladesh.png
+Barbados, 287,375, Bridgetown, Barbados.png
+Belarus, 9,449,323, Minsk, Belarus.png
+Belgium, 11,589,623, Brussels, Belgium.png
+Belize, 397,628, Belmopan, Belize.png
+Benin, 12,123,200, Porto-Novo, Benin.png
+Bhutan, 771,608, Thimphu, Bhutan.png
+Bolivia, 11,673,021, Sucre, Bolivia.png
+Bosnia And Herzegovina, 3,280,819, Sarajevo, Bosnia And Herzegovina.png
+Botswana, 2,351,627, Gaborone, Botswana.png
+Brazil, 212,559,417, Brasilia, Brazil.png
+Brunei, 437,479, Bandar Seri Begawan, Brunei.png
+Bulgaria, 6,948,445, Sofia, Bulgaria.png
+Burkina Faso, 20,903,273, Ouagadougou, Burkina Faso.png
+Burundi, 11,890,784, Gitega, Burundi.png
+Cambodia, 16,718,965, Phnom Penh, Cambodia.png
+Cameroon, 26,545,863, Yaounde, Cameroon.png
+Canada, 37,742,154, Ottawa, Canada.png
+Cabo Verde, 555,987, Praia, Cabo Verde.png
+Central African Republic, 4,829,767, Bangui, Central African Republic.png
+Chad, 16,425,864, N'djamena, Chad.png
+Chile, 19,116,201, Santiago, Chile.png
+China, 1,439,323,776, Beijing, China.png
+Colombia, 50,882,891, Bogotá, Colombia.png
+Comoros, 869,601, Moroni, Comoros.png
+Republic of Congo, 5,518,087, Brazzaville, Republic of Congo.png
+Democratic Republic Of Congo, 89,561,403, Kinshasa, Democratic Republic Of Congo.png
+Costa Rica, 5,094,118, San Jose, Costa Rica.png
+Cote D'ivoire, 26,378,274, Yamoussoukro, Cote D'ivoire.png
+Croatia, 4,105,267, Zagreb, Croatia.png
+Cuba, 11,326,616, Havana, Cuba.png
+Cyprus, 1,207,359, Nicosia, Cyprus.png
+Czechia, 10,708,981, Prague, Czechia.png
+Denmark, 5,792,202, Copenhagen, Denmark.png
+Djibouti, 988,000, Djibouti City, Djibouti.png
+Dominica, 10,847,910, Roseau, Dominica.png
+Dominican Republic, 10,847,910, Santo domingo, Dominican Republic.png
+Timor-Leste, 1,318,445, Dili, Timor-Leste.png
+Ecuador, 17,643,054, Quito, Ecuador.png
+Egypt, 102,334,404, Cairo, Egypt.png
+El Salvador, 6,486,205, San Salvador, El Salvador.png
+Equatorial Guinea, 1,402,985, Malabo, Equatorial Guinea.png
+Eritrea, 3,546,421, Asmara, Eritrea.png
+Estonia, 1,326,535, Tallinn, Estonia.png
+Eswatini, 1,160,164, Mbabane, Eswatini.png
+Ethiopia, 114,963,588, Addis Ababa, Ethiopia.png
+Fiji, 896,445, Suva, Fiji.png
+Finland, 5,540,720, Helsinki, Finland.png
+France, 65,273,511, Paris, France.png
+Gabon, 2,225,734, Libreville, Gabon.png
+Gambia, 2,416,668, Banjul, Gambia.png
+Georgia, 3,989,167, Tbilisi, Georgia.png
+Germany, 83,783,942, Berlin, Germany.png
+Ghana, 31,072,940, Accra, Ghana.png
+Greece, 10,423,054, Athens, Greece.png
+Grenada, 112,523, Saint George's, Grenada.png
+Guatemala, 17,915,568, Guatemala City, Guatemala.png
+Guinea, 13,132,795, Malabo, Guinea.png
+Guinea-bissau, 1,968,001, Bissau, Guinea-bissau.png
+Guyana, 786,552, Georgetown, Guyana.png
+Haiti, 11,402,528, Port-Au-Prince, Haiti.png
+Vatican City, 801, Vatican City, Vatican City.png
+Honduras, 9,904,607, Tegucigalpa, Honduras.png
+Hungary, 9,660,351, Budapest, Hungary.png
+Iceland, 341,243, Reykjavik, Iceland.png
+India, 1,380,004,385, New Delhi, India.png
+Indonesia, 273,523,615, Jakarta, Indonesia.png
+Iran, 83,992,949, Algeria, Iran.png
+Iraq, 40,222,493, Baghdad, Iraq.png
+Ireland, 4,937,786, Dublin, Ireland.png
+Israel, 8,655,535, Jerusalem, Israel.png
+Italy, 60,461,826, Rome, Italy.png
+Jamaica, 2,961,167, Kingston, Jamaica.png
+Japan, 126,476,461, Tokyo, Japan.png
+Jordan, 10,203,134, Amman, Jordan.png
+Kazakhstan, 18,776,707, Nur-Sultan, Kazakhstan.png
+Kenya, 53,771,296, Nairobi, Kenya.png
+Kiribati, 119,449, South Tarawa, Kiribati.png
+South Korea, 51,269,185, Seoul, South Korea.png
+North Korea, 25,778,816, Pyongyang, North Korea.png
+Kosovo, 1,830,000, Pristina, Kosovo.png
+Kuwait, 4,270,571, Kuwait City, Kuwait.png
+Kyrgyzstan, 6,524,195, Bishkek, Kyrgyzstan.png
+Laos, 7,275,560, Vientiane, Laos.png
+Latvia, 1,886,198, Riga, Latvia.png
+Lebanon, 6,825,445, Beirut, Lebanon.png
+Lesotho, 2,142,249, Maseru, Lesotho.png
+Liberia, 5,057,681, Monrovia, Liberia.png
+Libya, 6,871,292, Tripoli, Libya.png
+Liechtenstein, 38,128, Vaduz, Liechtenstein.png
+Lithuania, 2,722,289, Vilnius, Lithuania.png
+Luxembourg, 625,978, Luxembourg, Luxembourg.png
+North Macedonia, 2,083,374, Skopje, North Macedonia.png
+Madagascar, 27,691,018, Antananarivo, Madagascar.png
+Malawi, 19,129,952, Lilongwe, Malawi.png
+Malaysia, 32,365,999, Kuala Lumpur, Malaysia.png
+Maldives, 540,544, Male, Maldives.png
+Mali, 20,250,833, Bamako, Mali.png
+Malta, 441,543, Valletta, Malta.png
+Marshall Islands, 59,190, Majuro, Marshall Islands.png
+Mauritania, 4,649,658, Nouakchott, Mauritania.png
+Mauritius, 1,271,768, Port Louis, Mauritius.png
+Mexico, 128,932,753, Mexico City, Mexico.png
+Micronesia, 548,914, Palikir, Micronesia.png
+Moldova, 4,033,963, Chisinau, Moldova.png
+Monaco, 39,242, Monaco, Monaco.png
+Mongolia, 3,278,290, Ulaanbaatar, Mongolia.png
+Montenegro, 628,066, Podgorica, Montenegro.png
+Morocco, 36,910,560, Rabat, Morocco.png
+Mozambique, 31,255,435, Maputo, Mozambique.png
+Myanmar, 54,409,800, Nay Pyi Taw, Myanmar.png
+Namibia, 2,540,905, Windhoek, Namibia.png
+Nauru, 10,824, Yaren District, Nauru.png
+Nepal, 29,136,808, Kathmandu, Nepal.png
+Netherlands, 17,134,872, Amsterdam, Netherlands.png
+New Zealand, 4,822,233, Wellington, New Zealand.png
+Nicaragua, 6,624,554, Managua, Nicaragua.png
+Niger, 206,139,589, Niamey, Niger.png
+Nigeria, 206,139,589, Abuja, Nigeria.png
+Norway, 5,421,241, Oslo, Norway.png
+Oman, 5,106,626, Muscat, Oman.png
+Pakistan, 220,892,340, Islamabad, Pakistan.png
+Palau, 18,094, Ngerulmud, Palau.png
+Panama, 4,314,767, Panama City, Panama.png
+Papua New Guinea, 8,947,024, Port Moresby, Papua New Guinea.png
+Paraguay, 7,132,538, Asunción, Paraguay.png
+Peru, 32,971,854, Lima, Peru.png
+Philippines, 109,581,078, Manila, Philippines.png
+Poland, 37,846,611, Warsaw, Poland.png
+Portugal, 10,196,709, Lisbon, Portugal.png
+Qatar, 2,881,053, Doha, Qatar.png
+Romania, 19,237,691, Bucharest, Romania.png
+Russia, 145,934,462, Moscow, Russia.png
+Rwanda, 12,952,218, Kigali, Rwanda.png
+St Kitts And Nevis, 53,199, Basseterre, St Kitts And Nevis.png
+St Lucia, 183,627, Castries, St Lucia.png
+St Vincent And Grenadines, 110,940, Kingstown, St Vincent And Grenadines.png
+Samoa, 198,414, Apia, Samoa.png
+San Marino, 33,931, San Marino, San Marino.png
+Sao Tome And Principe, 219,159, Sao Tome, Sao Tome And Principe.png
+Saudi Arabia, 34,813,871, Riyadh, Saudi Arabia.png
+Senegal, 16,743,927, Dakar, Senegal.png
+Serbia, 8,737,371, Belgrade, Serbia.png
+Seychelles, 98,347, Victoria, Seychelles.png
+Sierra Leone, 7,976,983, Freetown, Sierra Leone.png
+Singapore, 5,850,342, Singapore, Singapore.png
+Slovakia, 5,459,642, Bratislava, Slovakia.png
+Slovenia, 2,078,938, Ljubljana, Slovenia.png
+Solomon Islands, 686,884, Honiara, Solomon Islands.png
+Somalia, 15,893,222, Mogadishu, Somalia.png
+South Africa, 59,308,690, Bloemfontein / Cape Town / Pretoria, South Africa.png
+Spain, 46,754,778, Madrid, Spain.png
+Sri Lanka, 21,413,249, Sri Jayawardenepura Kotte, Sri Lanka.png
+Sudan, 43,849,260, Khartoum, Sudan.png
+South Sudan, 11,193,725, Juba, South Sudan.png
+Suriname, 586,632, Paramaribo, Suriname.png
+Sweden, 10,099,265, Stockholm, Sweden.png
+Switzerland, 8,654,622, Bern, Switzerland.png
+Syria, 17,500,658, Damascus, Syria.png
+Taiwan, 23,816,775, Taipei, Taiwan.png
+Tajikistan, 9,537,645, Dushanbe, Tajikistan.png
+Tanzania, 59,734,218, Dodoma, Tanzania.png
+Thailand, 69,799,978, Bangkok, Thailand.png
+Togo, 8,278,724, Lomé, Togo.png
+Tonga, 105,695, Nuku'alofa, Tonga.png
+Trinidad And Tobago, 1,399,488, Port Of Spain, Trinidad And Tobago.png
+Tunisia, 11,818,619, Tunis, Tunisia.png
+Turkey, 84,339,067, Ankara, Turkey.png
+Turkmenistan, 6,031,200, Ashgabat, Turkmenistan.png
+Tuvalu, 11,792, Funafuti, Tuvalu.png
+Uganda, 45,741,007, Kampala, Uganda.png
+Ukraine, 43,733,762, Kiev, Ukraine.png
+United Arab Emirates, 9,890,402, Abu dhabi, United Arab Emirates.png
+United Kingdom, 67,886,011, London, United Kingdom.png
+United States of America, 331,002,651, Washington D.C., United States of America.png
+Uruguay, 3,473,730, Montevideo, Uruguay.png
+Uzbekistan, 33,469,203, Tashkent, Uzbekistan.png
+Vanuatu, 307,145, Port Vila, Vanuatu.png
+Venezuela, 28,435,940, Caracas, Venezuela.png
+Vietnam, 97,338,579, Hanoi, Vietnam.png
+Yemen, 29,825,964, Sana'a, Yemen.png
+Zambia, 18,383,955, Lusaka, Zambia.png
+Zimbabwe, 14,862,924, Harare, Zimbabwe.png
