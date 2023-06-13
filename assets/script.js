@@ -89,17 +89,21 @@ function updateCircles() {
 function checkAnswer(selectedIndex) {
     if (selectedIndex === currentQuestion.answer && buttons[selectedIndex].classList.contains('active')) {
         buttons[selectedIndex].style.backgroundColor = 'rgb(73 152 94)'
+        numCorrect++;
     } else if (buttons[selectedIndex].classList.contains('active')) {
         buttons[selectedIndex].style.backgroundColor = 'rgb(157 55 55)'
     }
     for(var i = 0; i < buttons.length; i++) {
-        if(i != selectedIndex)
-            buttons[i].classList = ['btn inactive']
+        buttons[i].classList = ['btn inactive']
         buttons[i].onclick = null;
     }
+    buttons[currentQuestion.answer].style.backgroundColor = 'rgb(73 152 94)';
     questionIndex++;
     nextButton.onclick = resetQuestion;
     nextButton.classList = ['active']
+    if(questionIndex == numQs) {
+        nextButton.textContent = 'Done'
+    }
 }
 
 //function to reset the question and UI
@@ -111,7 +115,7 @@ function resetQuestion() {
     nextButton.classList = ['inactive']
     nextButton.onclick = null;
     if(questionIndex >= numQs) {
-        questionIndex = 0;
+        gameEnd();
     }
     else
         displayRandomQuestion();
@@ -126,7 +130,6 @@ function setUpQuestion() {
         const qDat = (jsonData.country[correctCountryIndex][questionData]);
         questionElement.textContent = currentQuestion.question + qDat + '?';
         var usedIndices = [correctCountryIndex];
-        console.log(usedIndices.toString());
         var correctPosition = Math.floor(Math.random() * buttons.length);
         for(var i = 0; i < buttons.length; i++) {
             if(i == correctPosition){
@@ -153,7 +156,6 @@ function setUpQuestion() {
         image.src = '../artassets/country flags/' + jsonData.country[correctCountryIndex][questionData]
         image.className = 'flag'
         questionElement.appendChild(image);
-        console.log(usedIndices.toString());
         var correctPosition = Math.floor(Math.random() * buttons.length);
         for(var i = 0; i < buttons.length; i++) {
             if(i == correctPosition){
@@ -173,6 +175,45 @@ function setUpQuestion() {
     
 }
 
+function gameEnd() {
+    var app = document.getElementById('app');
+    var children = app.children;
+    for(let i = 0; i < buttons.length; i++) {
+        buttons[i].classList = ['btn inactive']
+    }
+    for (let i = 0; i < children.length; i++) {
+        const child = children[i];
+        child.classList.add('fade-out');
+    }
+    deleteAndCreateItems();
+}
+
+setTimeout(function() {
+    // Code to execute after the delay
+    console.log("Delay complete");
+}, 2000);
+
+function delay(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function deleteAndCreateItems() {
+    await delay(1000);
+    var app = document.getElementById('app');
+    var children = app.children;
+    while(children.length > 0) {
+        const child = children[0];
+        child.remove();
+        children = app.children;
+    }
+    var gameoverText = document.createElement('h1');
+    gameoverText.textContent = 'You got ' + numCorrect + ' questions correct out of ' + numQs;
+    gameoverText.classList.add('fade-in');
+    app.appendChild(gameoverText);
+    setTimeout(function() {
+        gameoverText.style.opacity = '1';
+    }, 10);
+}
 var xhr = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
   if (xhr.readyState === 4 && xhr.status === 200) {
@@ -183,7 +224,6 @@ xhr.open('GET', '../data/countries.json', false);
 xhr.send();
 
 // You can use the jsonData variable outside the XMLHttpRequest event handler as well
-console.log(jsonData);
 
 // Display the first question---------------
 displayRandomQuestion();
