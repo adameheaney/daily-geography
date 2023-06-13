@@ -94,7 +94,7 @@ function checkAnswer(selectedIndex) {
         buttons[selectedIndex].style.backgroundColor = 'rgb(157 55 55)'
     }
     for(var i = 0; i < buttons.length; i++) {
-        buttons[i].classList = ['btn inactive']
+        buttons[i].classList = ['btn inactive'];
         buttons[i].onclick = null;
     }
     buttons[currentQuestion.answer].style.backgroundColor = 'rgb(73 152 94)';
@@ -102,7 +102,7 @@ function checkAnswer(selectedIndex) {
     nextButton.onclick = resetQuestion;
     nextButton.classList = ['active']
     if(questionIndex == numQs) {
-        nextButton.textContent = 'Done'
+        nextButton.textContent = 'Done';
     }
 }
 

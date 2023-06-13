@@ -40,8 +40,12 @@ body {
     overflow: hidden;
 }
 
-.inactive {
+#next-btn.inactive {
     opacity: 50%;
+}
+
+.inactive {
+    opacity: 1;
 }
 
 .active {
