@@ -101,7 +101,7 @@
 
 		{"name": "Dominica", "population": "10,847,910", "capital": "Roseau", "flag": "Dominica.png"}, 
 
-		{"name": "Dominican Republic", "population": "10,847,910", "capital": "Santo domingo", "flag": "Dominican Republic.png"}, 
+		{"name": "Dominican Republic", "population": "10,847,910", "capital": "Santo Domingo", "flag": "Dominican Republic.png"}, 
 
 		{"name": "Timor-Leste", "population": "1,318,445", "capital": "Dili", "flag": "Timor-Leste.png"}, 
 
@@ -163,7 +163,7 @@
 
 		{"name": "Indonesia", "population": "273,523,615", "capital": "Jakarta", "flag": "Indonesia.png"}, 
 
-		{"name": "Iran", "population": "83,992,949", "capital": "Algeria", "flag": "Iran.png"}, 
+		{"name": "Iran", "population": "83,992,949", "capital": "Tehran", "flag": "Iran.png"}, 
 
 		{"name": "Iraq", "population": "40,222,493", "capital": "Baghdad", "flag": "Iraq.png"}, 
 
