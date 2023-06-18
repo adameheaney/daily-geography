@@ -217,3 +217,30 @@ footer {
     transform: translateX(-50%);
     color: whitesmoke;
 }
+
+#bar-graph {
+    width: 500px;
+    height: 200px;
+    background-color: rgb(38 38 38);
+    display: block;
+    text-align: left;
+    justify-content: left;
+    width: 100%;
+    margin: 10px auto 0;
+    border-radius: 4px;
+}
+
+#bar {
+    margin: 0 0 0 10px;
+    background-color: rgb(64 64 64);
+    text-align: left;
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+#bar-container {
+    text-align: left;
+    color: whitesmoke;
+    display: flex;
+    margin: 9px 0 0 0;
+}

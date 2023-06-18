@@ -193,6 +193,8 @@ function gameEnd() {
         if(child.id != 'circle-container')
             child.classList.add('fade-out');
     }
+    var cookieValue = document.cookie.split("; ").find(row => row.startsWith("num" + numCorrect + '=')).split("=")[1];
+    editCookie('num' + numCorrect, parseInt(cookieValue) + 1 + '');
     modifyElements();
 }
 
@@ -241,12 +243,31 @@ function modifyElements() {
     shareContainer.appendChild(shareButton);
     gameoverText.textContent = 'You got ' + numCorrect + ' questions correct out of ' + numQs;
     gameoverText.classList.add('fade-in');
+    var barGraph = bargraph();
     app.appendChild(gameoverText);
     app.appendChild(shareContainer);
+    app.appendChild(barGraph);
     app.appendChild(countdown);
     correctString = 'Daily Geography &#9728;&#127752;: ';
 }
 
+// Function to edit a cookie value
+function editCookie(cookieName, newValue) {
+    var cookies = document.cookie.split(';');
+  
+    for (var i = 0; i < cookies.length; i++) {
+      var cookie = cookies[i].trim();
+  
+      if (cookie.startsWith(cookieName + '=')) {
+        // Found the cookie, update its value
+        var cookieParts = cookie.split('=');
+        var updatedCookie = cookieParts[0] + '=' + newValue;
+        document.cookie = updatedCookie;
+        break;
+      }
+    }
+  }
+  
 async function copyToClipboard(copyText) {
     copyText.select();
     copyText.setSelectionRange(0, 99999);
@@ -272,6 +293,72 @@ async function copyToClipboard(copyText) {
     shareButton.style.color = null;
 }
 
+function bargraph() {
+    var bargraphContainer = document.createElement('div');
+    var scoreHistory = document.createElement('h4');
+    scoreHistory.textContent = 'Score History';
+    bargraphContainer.appendChild(scoreHistory);
+    bargraphContainer.id = 'bar-graph';
+    var bars = [document.createElement('div'), document.createElement('div'), 
+                document.createElement('div'), document.createElement('div'),
+                document.createElement('div'), document.createElement('div')];
+    var barContainers = [document.createElement('div'), document.createElement('div'), 
+                        document.createElement('div'), document.createElement('div'),
+                        document.createElement('div'), document.createElement('div')];
+    var cookieVals = [];
+    var largestCookie = 0;
+    var largestVal = 0;
+    for (let i = 0; i < bars.length; i++) {
+        let cookieName = "num" + i;
+        let cookieValue = parseInt(getCookie(cookieName));
+        cookieVals[i] = cookieValue;
+        if(cookieValue > largestVal) {
+            largestCookie = i;
+            largestVal = cookieValue;
+        }
+    }
+    for(let i = 0; i < bars.length; i++) {
+        bars[i].id = 'bar'
+        bars[i].textContent = '' + cookieVals[i];
+        barContainers[i].textContent = i + ':';
+        barContainers[i].id = 'bar-container';
+        if(i != largestCookie) {
+            if(cookieVals[i] > 0) {
+                bars[i].style.width = ((cookieVals[i] / largestVal) * 1)*100 + '%';
+            }
+            else if(largestVal > 0) {
+                bars[i].style.width = '5%';
+            }
+            else {
+                bars[i].style.width = '100%';
+            }
+        }
+        else {
+            bars[i].style.width = '100%';
+        }
+        barContainers[i].appendChild(bars[i]);
+        bargraphContainer.appendChild(barContainers[i]);
+    }
+    console.log(document.cookie);
+    return bargraphContainer;
+}
+
+function getCookie(cookieName) {
+    const name = cookieName + "=";
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const cookieArray = decodedCookie.split(";");
+  
+    for (let i = 0; i < cookieArray.length; i++) {
+      let cookie = cookieArray[i].trim();
+  
+      if (cookie.indexOf(name) === 0) {
+        return cookie.substring(name.length, cookie.length);
+      }
+    }
+  
+    return "";
+  }
+
 setInterval(function time(){
     var d = new Date(new Date().toLocaleString("en-US",{timeZone: "America/New_York"}));
     var hours = 23 - d.getHours();
@@ -287,13 +374,17 @@ setInterval(function time(){
         document.getElementById('the-final-countdown').textContent = (hours+':'+min+':'+sec + ' left until a new quiz!')
 }, 1000);
 
-setTimeout(function() {
-    // Code to execute after the delay
-    console.log("Delay complete");
-}, 2000);
-
 function delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+function instantiateCookies() {
+    document.cookie = "num0=0";
+    document.cookie = "num1=0";
+    document.cookie = "num2=0";
+    document.cookie = "num3=0";
+    document.cookie = "num4=0";
+    document.cookie = "num5=0";
 }
 
 var xhr = new XMLHttpRequest();
@@ -310,3 +401,7 @@ xhr.send();
 // Display the first question---------------
 displayRandomQuestion();
 // -----------------------------------------
+
+if(document.cookie == "") {
+    instantiateCookies();
+}
