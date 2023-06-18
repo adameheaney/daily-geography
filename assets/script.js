@@ -81,9 +81,9 @@ function displayRandomQuestion(chosenIndex) {
 function updateCircles() {
     for (var i = 0; i < circles.length; i++) {
         if (i <= questionIndex) {
-        circles[i].style.backgroundColor = 'black'; // Change color as desired
+        circles[i].style.backgroundColor = 'whitesmoke'; // Change color as desired
         } else {
-        circles[i].style.backgroundColor = 'rgb(250, 250, 250)'; // Change color as desired
+        circles[i].style.backgroundColor = 'black'; // Change color as desired
         }
     }
 }
@@ -265,8 +265,8 @@ async function copyToClipboard(copyText) {
         alert("Text copied to clipboard: " + copyText.value);
     }
     var shareButton = document.getElementsByClassName('share-button')[0];
-    shareButton.style.backgroundColor = 'rgb(250, 250, 250)';
-    shareButton.style.color = 'black';
+    shareButton.style.backgroundColor = 'black';
+    shareButton.style.color = 'rgb(250, 250, 250)';
     await delay(200);
     shareButton.style.backgroundColor = null;
     shareButton.style.color = null;
