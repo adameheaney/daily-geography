@@ -393,7 +393,7 @@ xhr.onreadystatechange = function() {
     jsonData = JSON.parse(xhr.responseText);
   }
 };
-xhr.open('GET', '../data/countries.json', false);
+xhr.open('GET', 'data/countries.json', false);
 xhr.send();
 
 // You can use the jsonData variable outside the XMLHttpRequest event handler as well
