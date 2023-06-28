@@ -339,7 +339,6 @@ function bargraph() {
         barContainers[i].appendChild(bars[i]);
         bargraphContainer.appendChild(barContainers[i]);
     }
-    console.log(document.cookie);
     return bargraphContainer;
 }
 
@@ -385,6 +384,7 @@ function instantiateCookies() {
     document.cookie = "num3=0";
     document.cookie = "num4=0";
     document.cookie = "num5=0";
+    document.cookie = "played=false";
 }
 
 var xhr = new XMLHttpRequest();
